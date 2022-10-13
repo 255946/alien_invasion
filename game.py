@@ -25,3 +25,9 @@ if __name__=='__main__':
     ai = AlienInvasion()
     ai.run_game()
 
+#Set the background color.
+self.bg_color=(230,230,230)
+
+#Redraw the screen during each pass through the loop.
+self.screen,fill(self.bg_color)
+
